@@ -3,8 +3,8 @@ import { PutObjectCommand, S3Client } from '@aws-sdk/client-s3';
 const AWS = require('aws-sdk');
 
 AWS.config.update({
-  accessKeyId: "AKIAYIOY6434LGRWYINL",
-  secretAccessKey: "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",
+  accessKeyId: "",
+  secretAccessKey: "",
 });
 
 const s3 = new AWS.S3();
